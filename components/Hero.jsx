@@ -6,6 +6,8 @@ import { Button } from "./ui/button";
 import { Download, Send } from "lucide-react";
 import { RiArrowDownSLine } from "react-icons/ri";
 
+import Socials from "./Socials";
+
 const Hero = () => {
   const words = [
     {
@@ -50,6 +52,10 @@ const Hero = () => {
             </Button>
           </div>
           {/* socials */}
+          <Socials
+            containerStyles="flex gap-x-6 mx-auto xl:mx-0"
+            iconsStyles="text-foreground text-[25px] hover:text-primary transition-all"
+          />
         </div>
         {/* icon */}
         <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
