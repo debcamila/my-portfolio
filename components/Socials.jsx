@@ -1,11 +1,20 @@
 "use client";
 
-import { RiLinkedinFill, RiGithubFill, RiBehanceFill } from "react-icons/ri";
+import {
+  RiMailFill,
+  RiLinkedinFill,
+  RiGithubFill,
+  RiBehanceFill,
+} from "react-icons/ri";
 import { FaSpeakerDeck } from "react-icons/fa";
 
 import Link from "next/link";
 
 const icons = [
+  {
+    path: "mailto:camiladeborah72@gmail.com",
+    name: <RiMailFill />,
+  },
   {
     path: "https://www.linkedin.com/in/debcamila/",
     name: <RiLinkedinFill />,
