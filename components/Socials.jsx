@@ -7,6 +7,7 @@ import {
   RiBehanceFill,
 } from "react-icons/ri";
 import { FaSpeakerDeck } from "react-icons/fa";
+import "../app/file.css";
 
 import Link from "next/link";
 
@@ -24,6 +25,10 @@ const icons = [
     name: <RiGithubFill />,
   },
   {
+    path: "http://lattes.cnpq.br/7295801510740463",
+    name: <i class="ai ai-lattes" style={{ verticalAlign: "top" }}></i>,
+  },
+  {
     path: "https://www.behance.net/debcamila",
     name: <RiBehanceFill />,
   },
@@ -38,7 +43,7 @@ const Socials = ({ containerStyles, iconsStyles }) => {
     <div className={`${containerStyles}`}>
       {icons.map((icon, index) => {
         return (
-          <Link href={icon.path} key={index}>
+          <Link href={icon.path} key={index} target="_blank">
             <div className={`${iconsStyles}`}>{icon.name}</div>
           </Link>
         );
