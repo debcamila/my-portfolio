@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import Bio from "@/components/Bio";
 import Skills from "@/components/Skills";
 import LatestProjects from "@/components/LatestProjects";
+import Cta from "@/components/Cta";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Bio />
       <Skills />
       <LatestProjects />
+      <Cta />
     </main>
   );
 }
