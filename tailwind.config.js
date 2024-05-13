@@ -83,6 +83,10 @@ module.exports = {
         bio_shape_dark: "url(/bio/shape-dark.svg)",
         dots_light: "url(/dots-light.svg)",
         dots_dark: "url(/dots-dark.svg)",
+        latestprojects_project_bg_light:
+          "url(/latestprojects/project-bg-light.png)",
+        latestprojects_project_bg_dark:
+          "url(/latestprojects/project-bg-dark.png)",
       },
     },
   },
