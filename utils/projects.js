@@ -2,7 +2,7 @@ module.exports = {
   projects: [
     {
       image: "/latestprojects/kammels.png",
-      category: ["react js", "material ui"],
+      category: ["javascript", "react js", "material ui"],
       name: "Kammel's Arquitetura e Design",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis",
@@ -11,7 +11,7 @@ module.exports = {
     },
     {
       image: "/latestprojects/filhas-do-vento.png",
-      category: ["html", "css"],
+      category: ["html", "css", "javascript"],
       name: "Coletivo Filhas do Vento",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis",
@@ -29,7 +29,7 @@ module.exports = {
     },
     {
       image: "/latestprojects/consulta-cep-correios.png",
-      category: ["javascript"],
+      category: ["javascript", "react js"],
       name: "Consulta de CEP: API Correios",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis",
@@ -38,7 +38,7 @@ module.exports = {
     },
     {
       image: "/latestprojects/ui-tech-school-for-girls.png",
-      category: ["javascript"],
+      category: ["javascript", "react js", "material ui"],
       name: "Unicap Icam Tech School for Girls",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis",
@@ -55,8 +55,8 @@ module.exports = {
       github: "https://github.com/debcamila/bruxa-dos-acentos",
     },
     {
-      image: "/latestprojects/ui-tech-school-for-girls.png",
-      category: ["react"],
+      image: "/latestprojects/farmacia-leve-mais-popular.png",
+      category: ["javascript", "react js", "material ui"],
       name: "Farmácia: Leve Mais Popular",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis",
