@@ -90,6 +90,8 @@ module.exports = {
         about_shape: "url(/about/shape-1.svg)",
         about_shape2_light: "url(/about/shape-2-light.svg)",
         about_shape2_dark: "url(/about/shape-2-dark.svg)",
+        contact_illustration_light: "url(/contact/illustration-light.svg)",
+        contact_illustration_dark: "url(/contact/illustration-dark.svg)",
       },
     },
   },
