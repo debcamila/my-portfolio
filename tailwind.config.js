@@ -87,6 +87,9 @@ module.exports = {
           "url(/latestprojects/project-bg-light.png)",
         latestprojects_project_bg_dark:
           "url(/latestprojects/project-bg-dark.png)",
+        about_shape: "url(/about/shape-1.svg)",
+        about_shape2_light: "url(/about/shape-2-light.svg)",
+        about_shape2_dark: "url(/about/shape-2-dark.svg)",
       },
     },
   },
