@@ -7,7 +7,7 @@ module.exports = {
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis",
       link: "https://kammelsarquitetura.com.br/",
-      github: "/",
+      github: "",
     },
     {
       image: "/latestprojects/filhas-do-vento.png",
@@ -16,7 +16,7 @@ module.exports = {
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis",
       link: "https://filhasdoventocoletivo.com.br/",
-      github: "/",
+      github: "",
     },
     {
       image: "/latestprojects/interno.png",
@@ -51,7 +51,7 @@ module.exports = {
       name: "Jogo: Bruxa dos Acentos",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis",
-      link: "/",
+      link: "",
       github: "https://github.com/debcamila/bruxa-dos-acentos",
     },
     {
@@ -60,7 +60,7 @@ module.exports = {
       name: "Farmácia: Leve Mais Popular",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis",
-      link: "/",
+      link: "",
       github: "https://github.com/debcamila/ecommerce-engsoft",
     },
   ],
