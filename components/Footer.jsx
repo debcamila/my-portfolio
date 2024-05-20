@@ -12,7 +12,7 @@ const Footer = () => {
           />
           {/* copyright */}
           <div className="text-muted-foreground">
-            Copyright &copy; 2024 Deborah Camila.
+            Copyright &copy; 2024 Desenvolvido por Deborah Camila.
           </div>
         </div>
       </div>

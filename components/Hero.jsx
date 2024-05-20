@@ -38,7 +38,7 @@ const Hero = () => {
           </div>
           <TypewriterEffectSmooth words={words} />
           <p className="subtitle mx-auto xl:mx-0">
-            Vejo cada desafio como uma nova oportunidade para aprender.
+            Vejo cada desafio como uma nova oportunidade para aprender
           </p>
           {/* buttons */}
           <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
