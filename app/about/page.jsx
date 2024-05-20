@@ -19,37 +19,33 @@ const About = () => {
             </div>
           </div>
           <div className="flex-1">
-            <div>
-              <div className="text-lg mt-12 xl:mt-8">
-                {/* infos */}
-                <div>
-                  <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-4">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit
-                    </h3>
-                    <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Molestias magni incidunt exercitationem distinctio tenetur
-                      autem tempore consequatur optio quaerat id, rem quisquam,
-                      ducimus, accusamus odio quae. Mollitia explicabo quos
-                      illo?
-                    </p>
-                    <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Molestias magni incidunt exercitationem distinctio tenetur
-                      autem tempore consequatur optio quaerat id, rem quisquam,
-                      ducimus, accusamus odio quae. Mollitia explicabo quos
-                      illo?
-                    </p>
-                    <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Molestias magni incidunt exercitationem distinctio tenetur
-                      autem tempore consequatur optio quaerat id, rem quisquam,
-                      ducimus, accusamus odio quae. Mollitia explicabo quos
-                      illo?
-                    </p>
-                  </div>
-                </div>
+            <div className="text-lg mt-12 xl:mt-8">
+              {/* infos */}
+              <div className="text-center xl:text-left">
+                <p className="subtitle max-w-xl mx-auto xl:mx-0">
+                  Olá, você pode me chamar de Deb ou Debs. Eu sou uma
+                  desenvolvedora front-end brasileira, trabalho com tecnologia
+                  desde 2018, e desde então tenho tido experiência em
+                  desenvolver sistemas de alta qualidade, eficientes, escaláveis
+                  e responsivos.
+                </p>
+                <p className="subtitle max-w-xl mx-auto xl:mx-0">
+                  Toda a minha trajetória pelo mundo da tecnologia foi
+                  construída coletivamente, através de comunidades, grupos e
+                  redes de apoio que tem como fundamentos &ldquo;diversidade,
+                  inclusão e equidade&rdquo;. Aprender a codificar nestes
+                  ambientes acolhedores e colaborativos, se conectar com outras
+                  pessoas para ensinar e aprender sobre diversos assuntos tornou
+                  a jornada mais prazerosa.
+                </p>
+                <p className="subtitle max-w-xl mx-auto xl:mx-0">
+                  Gosto de compartilhar sobre o que eu sei e tenho dedicado
+                  gande parte do meu tempo a isso como mentora voluntária em
+                  alguns projetos sociais, com o objetivo de inspirar, encorajar
+                  e capacitar jovens meninas a buscarem conhecimento e
+                  aprendizado para que possam promover mudanças positivas em
+                  suas vidas e em suas comunidades.
+                </p>
               </div>
             </div>
           </div>

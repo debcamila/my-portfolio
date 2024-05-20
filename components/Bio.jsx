@@ -23,14 +23,28 @@ const Bio = () => {
                 <div>
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit
+                      Desenvolvedora Front-end com mais de 5 anos de experiência
+                      em diferentes tecnologias
                     </h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Molestias magni incidunt exercitationem distinctio tenetur
-                      autem tempore consequatur optio quaerat id, rem quisquam,
-                      ducimus, accusamus odio quae. Mollitia explicabo quos
-                      illo?
+                      Eu sou a Deborah, sou formada em Ciência da Computação e
+                      trabalho com o desenvolvimento front-end, utilizando
+                      JavaScript, HTML, CSS e React.JS, tendo como missão
+                      construir sistemas de alta qualidade, eficientes,
+                      escaláveis e responsivos.
+                    </p>
+                    <p className="subtitle max-w-xl mx-auto xl:mx-0">
+                      Além das minhas responsabilidades técnicas, também estou
+                      dedicada em compartilhar ideias e conhecimentos para
+                      causar um impacto positivo no mundo. Desde 2019 participo
+                      de iniciativas que promovem o incentivo e a capacitação de
+                      meninas e mulheres para as áreas ligadas à ciência,
+                      tecnologia, engenharia e matemática (STEM, do inglês{" "}
+                      <i>science, technology, engineering and math</i>), com o
+                      objetivo de diminuir a evasão do gênero tanto no ambiente
+                      acadêmico quanto no profissional. Acredito que a
+                      tecnologia deve ser diversa, acessível e inclusiva para
+                      todas as pessoas.
                     </p>
                   </div>
                 </div>
