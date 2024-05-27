@@ -6,15 +6,26 @@ import { usePathname } from "next/navigation";
 
 // framer motion
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 
 const links = [
-  { path: "/", name: "início" },
-  { path: "/about", name: "sobre" },
-  { path: "/projects", name: "meus projetos" },
-  { path: "/contact", name: "contato" },
+  { path: "/", name: "início", title: "Portfólio" },
+  { path: "/about", name: "sobre", title: "Sobre" },
+  { path: "/projects", name: "meus projetos", title: "Projetos" },
+  { path: "/contact", name: "contato", title: "Contato" },
 ];
 const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {
   const path = usePathname();
+  const location = usePathname();
+
+  useEffect(() => {
+    if (location) {
+      const tabTitle = links.find((item) => item.path === location);
+      document.title = `Deborah Camila | ${
+        tabTitle ? tabTitle.title : "Portfólio"
+      }`;
+    }
+  }, [location]);
 
   return (
     <nav className={`${containerStyles}`}>
