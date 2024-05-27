@@ -7,37 +7,37 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-const skillsData = [
+const servicesData = [
+  {
+    icon: <FileCode size={72} strokeWidth={0.8} />,
+    title: "Desenvolvimento Web",
+    description:
+      "Desenvolvimento de páginas web utilizando HTML, CSS, JS, TS e algumas bibliotecas e frameworks como, React.js, Next.js, Tailwind CSS, Material UI, entre outros.",
+  },
   {
     icon: <Component size={72} strokeWidth={0.8} />,
     title: "UX/UI Design",
     description:
-      "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups",
-  },
-  {
-    icon: <FileCode size={72} strokeWidth={0.8} />,
-    title: "Desenvolvimento Front-end",
-    description:
-      "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups",
+      "Criação de design systems de protótipos, wireframes e mockups utilizando o Figma, para a criação de uma boa usabilidade e designs acessíveis e responsivos.",
   },
   {
     icon: <TabletSmartphone size={72} strokeWidth={0.8} />,
     title: "Desenvolvimento mobile",
     description:
-      "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups",
+      "Transformação de sistemas legados e desenvolvimento de aplicativos móveis utilizando React Native para dispositivos iOS e Android.",
   },
 ];
 
-const Skills = () => {
+const Services = () => {
   return (
     <section className="mb-12 xl:mb-36">
       <div className="container mx-auto">
         <h2 className="section-title mb-24 xl:mb-24 text-center mx-auto">
-          Skills
+          O que eu faço?
         </h2>
         {/* grid items */}
         <div className="grid xl:grid-cols-3 justify-center gap-y-12 xl:gap-y-24 xl:gap-x-8">
-          {skillsData.map((item, index) => {
+          {servicesData.map((item, index) => {
             return (
               <Card
                 className="w-full max-w-[424px] h-[300px] flex flex-col pt-16 pb-10 justify-center items-center relative"
@@ -63,4 +63,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Services;
