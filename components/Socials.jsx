@@ -26,7 +26,7 @@ const icons = [
   },
   {
     path: "http://lattes.cnpq.br/7295801510740463",
-    name: <i class="ai ai-lattes" style={{ verticalAlign: "top" }}></i>,
+    name: <i className="ai ai-lattes" style={{ verticalAlign: "top" }}></i>,
   },
   {
     path: "https://www.behance.net/debcamila",
