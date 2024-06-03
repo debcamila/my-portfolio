@@ -13,7 +13,7 @@ const About = () => {
             <div className="bg-about_shape2_light dark:bg-about_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1">
               <DevImg
                 containerStyles="bg-about_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
-                imgSrc=""
+                imgSrc="/about/developer-about.png"
                 alt="Deborah's picture profile"
               />
             </div>
