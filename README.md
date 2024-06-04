@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+> O template desse projeto foi inspirado na vídeo aula de [Cristian Mihai](https://www.youtube.com/@cristianmihai01), porém fiz algumas alterações e implementações.
 
-## Getting Started
+## 👋 Olá!
 
-First, run the development server:
+Este é o meu projeto de portfólio que tem como objetivo apresentar um pouco sobre mim, as áreas em que trabalho, além de disponibilizar os últimos projetos que desenvolvi, meu currículo e as minhas principais redes sociais para contato.
+O projeto é **responsivo**, contém **dark mode** e algumas **animações**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologias usadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- JavaScript;
+- React.js;
+- Next.js 14;
+- Shadcn UI;
+- Tailwind CSS.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Preview Desktop
 
-## Learn More
+<div align="center"><img alt="Preview Desktop" src="public/screencapture-desktop.png"></div>
 
-To learn more about Next.js, take a look at the following resources:
+## Preview Mobile
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<div align="center"><img alt="Preview Mobile" src="public/screencapture-mobile.png" width="400px"></div>
