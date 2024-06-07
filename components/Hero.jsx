@@ -47,9 +47,6 @@ const Hero = () => {
                 Enviar mensagem <Send size={18} />
               </Button>
             </Link>
-            <Button variant="secondary" className="gap-x-2">
-              Baixar CV <Download size={18} />
-            </Button>
           </div>
           {/* socials */}
           <Socials
