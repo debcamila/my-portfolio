@@ -2,7 +2,7 @@
 
 ## 👋 Olá!
 
-Este é o meu projeto de portfólio que tem como objetivo apresentar um pouco sobre mim, as áreas em que trabalho, além de disponibilizar os últimos projetos que desenvolvi, meu currículo e as minhas principais redes sociais para contato.
+Este é o meu projeto de portfólio que tem como objetivo apresentar um pouco sobre mim, as áreas em que trabalho, além de disponibilizar os últimos projetos que desenvolvi e as minhas principais redes sociais para contato.
 O projeto é **responsivo**, contém **dark mode** e algumas **animações**.
 
 ## Tecnologias usadas
